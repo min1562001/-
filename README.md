@@ -20,8 +20,9 @@ xiangmu2
 Xiangmu3（服务机）	1VCPU	3GB	50GB	CentOS-7-x86_64-DVD-1804.iso
 Xiangmu4（用户机）	1VCPU	3GB	50GB	CentOS-7-x86_64-DVD-1804.iso
 2.2网络配置
+
  
-3.	基础环境搭建
+3. 	基础环境建设
 3.1	安装VMware Workstation
 3.2	安装虚机xiangmu1
 选择相应的硬件配置，网络选择桥接。
@@ -97,7 +98,7 @@ wget https://storage.googleapis.com/harbor-releases/harbor-offline-installer-v1.
 tar xvf harbor-offline-installer-v1.6.1.tgz
  
 5.2.3	修改harbor.cfg 文件
-# hostname设置访问地址，可以使用ip、域名，不可以设置为127.0.0.1或localhost，此处我设置为本地ip
+# hostname
 
 hostname = 192.168.1.120
 其它不动。
